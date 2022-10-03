@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Righteous');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Poiret+One&display=swap');
+body {
+    margin-top: 100px;
+
+    height: max-content;
+    
+    font-family: 'Lato', cursive;
+    display: flex;
+    justify-content: center;
+
+    color: black;
+    background-color: black;
+
+    text-align: center;
+}
+.wholeContainer{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: black);
+}
+.list{
+    justify-content: center;
+    color: #fff;
+}
+button{
+    border-radius: 25% 10%;
+    color: red;
+    background-color: skyblue;
+}
+a {
+    color: blue;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5em;
+}
+nav{
+    color: #fff;
+}
+a:hover {
+    color: ghostwhite;
+}
+
+li {
+    list-style: none;
+}
+
+.dunkLowPicture{
+    background-image: url('https://images.stockx.com/360/Nike-Dunk-Low-Jackie-Robinson/Images/Nike-Dunk-Low-Jackie-Robinson/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1659017791&h=384&q=57');
+    background-size: cover;
+}
+.dunkLowHomePic{
+    background-image: url('https://images.stockx.com/360/Nike-Dunk-Low-UNC-2021/Images/Nike-Dunk-Low-UNC-2021/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1635182530&h=384&q=57');
+    background-size: cover;
+}
+.jordan1Picture{
+    background-image: url('https://images.stockx.com/360/Air-Jordan-1-Retro-High-Dark-Mocha/Images/Air-Jordan-1-Retro-High-Dark-Mocha/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1635345732&h=384&q=57');
+    background-size: cover;
+}
+.jordan1HomePic{
+    background-image: url('https://images.stockx.com/360/Air-Jordan-1-Retro-High-Dior/Images/Air-Jordan-1-Retro-High-Dior/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1635189753&h=384&q=57');
+    background-size: cover;
+}
+.jordan3Picture{
+    background-image: url('https://images.stockx.com/360/Air-Jordan-3-Retro-True-Blue-2016/Images/Air-Jordan-3-Retro-True-Blue-2016/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1635341252&h=384&q=57');
+    background-size: cover;
+}
+.jordan3HomePic{
+    background-image: url('https://images.stockx.com/360/Air-Jordan-3-Retro-Fire-Red-2022/Images/Air-Jordan-3-Retro-Fire-Red-2022/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1663622420&h=384&q=57');
+    background-size: cover;
+}
+.jordan4Picture{
+    background-image: url('https://images.stockx.com/360/Air-Jordan-4-Retro-Military-Black/Images/Air-Jordan-4-Retro-Military-Black/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1652820880&h=384&q=57');
+    background-size: cover;
+}
+.jordan4HomePic{
+    background-image: url('https://images.stockx.com/360/Air-Jordan-4-Retro-Bred-2019/Images/Air-Jordan-4-Retro-Bred-2019/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1635345245&h=384&q=57');
+    background-size: cover;
+}
+.nikeXoffPicture{
+    background-image: url('https://images.stockx.com/360/Nike-Air-Force-1-Low-Off-White-MCA-University-Blue/Images/Nike-Air-Force-1-Low-Off-White-MCA-University-Blue/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1635175415&h=384&q=57');
+    background-size: cover;
+}
+.nikeXoffHomePic{
+    background-image: url('https://images.stockx.com/360/Nike-Air-Force-1-Low-Off-White/Images/Nike-Air-Force-1-Low-Off-White/Lv2/img01.jpg?fm=avif&auto=compress&w=576&dpr=1&updated_at=1635342609&h=384&q=57');
+    background-size: cover;
+}
+.pictureBox{
+    border: white solid;
+    background-color: white;
+    height: 150px;
+    width: 210px;
+}
+.dunkLowBox{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+
+}
+.jordan1Box{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+
+}
+.jordan3Box{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+
+}
+.jordan4Box{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+
+}
+.nikeXoffBox{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+
+}
+.homeCategories{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
